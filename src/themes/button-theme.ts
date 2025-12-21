@@ -19,6 +19,7 @@ const buttonTheme = createTheme({
 
           "&:hover": {
             backgroundColor: theme.palette.main.secondary,
+            boxShadow: "none",
           },
         }),
         outlined: ({ theme }) => ({
