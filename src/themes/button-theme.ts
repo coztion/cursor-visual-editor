@@ -18,7 +18,7 @@ const buttonTheme = createTheme({
           backgroundColor: theme.palette.main.secondary,
 
           "&:hover": {
-            backgroundColor: theme.palette.main.secondary,
+            backgroundColor: theme.palette.main.primary,
             boxShadow: "none",
           },
         }),
@@ -27,8 +27,9 @@ const buttonTheme = createTheme({
           color: theme.palette.grayscale.gray900,
 
           "&:hover": {
+            backgroundColor: theme.palette.grayscale.gray500,
             borderColor: theme.palette.grayscale.gray500,
-            color: theme.palette.grayscale.gray900,
+            color: theme.palette.grayscale.white,
           },
         }),
       },
